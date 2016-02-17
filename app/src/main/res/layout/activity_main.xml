@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.breadykid.rain.MainActivity"
+    android:fitsSystemWindows="true">
+
+    <!-- 今天吃什么 -->
+    <!--<fragment-->
+        <!--android:id="@+id/input_info_fragment"-->
+        <!--android:name="com.example.breadykid.rain.eatwhat.DBControlFragment"-->
+        <!--tools:layout="@layout/input_info"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+
+    <!-- 抢红包 -->
+    <fragment
+        android:id="@+id/lucky_money"
+        android:name="com.example.breadykid.rain.redpackage.RedPackageFragment"
+        tools:layout="@layout/lucky_money"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- 撒花效果 -->
+    <com.example.breadykid.rain.raining.RainView
+        android:id="@+id/rain_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"/>
+        <!--android:gift_background="@android:color/transparent"-->
+        <!--android:gift_count="100"-->
+        <!--android:gift_max_size="0.8"-->
+        <!--android:gift_min_size="0.5"-->
+        <!--android:gift_speed="300" />-->
+
+</RelativeLayout>
