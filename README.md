@@ -2,7 +2,7 @@
 ## Demo
 * ### About RedPackage
 仿微信拼手气红包效果:  
-![redGIF](http://f.picphotos.baidu.com/album/s%3D680%3Bq%3D90/sign=1e6c28a6f036afc30a0c3c6d83229af9/0df431adcbef76095615fcf929dda3cc7cd99ebd.jpg)	
+![redGIF](http://i11.tietuku.com/fec69920910cef27.gif)	
 实现靠后方差大的随机数效果，参考[知乎链接](https://www.zhihu.com/question/22625187);		
 红包总金额限定200元，并有限定设置;		
 各种非空判定，每人最低抢到0.01元限定;
@@ -15,9 +15,9 @@
 * ### About Rain
 仿微信撒花效果:  	
 透明界面:  	
-![rainGIF](http://d.picphotos.baidu.com/album/s%3D680%3Bq%3D90/sign=e0fdfb32044f78f0840b99fb490a7b68/b3b7d0a20cf431add0ff265f4c36acaf2edd98a2.jpg)  	
+![rainGIF](http://i12.tietuku.com/8db73c3583fc4a86.gif)  	
 用于其他界面:  	
-![rainfrontsth](http://e.picphotos.baidu.com/album/s%3D680%3Bq%3D90/sign=a2b7545e2f381f309a198ea1993a3d35/8d5494eef01f3a29116db3a89e25bc315c607c2a.jpg)  	
+![rainfrontsth](http://i12.tietuku.com/9a8d8bb036db8f77.gif)  	
 撒落图片可选;
 
 ## Usage
