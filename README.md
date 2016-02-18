@@ -43,35 +43,36 @@ comment out these in activity_main.xml:
 
 * ### About EatWhat
 To be continued
+
 * ### About Rain
-  - #####rain only wiz transparent view:
-  chenge Android.Mainifest.xml:
- 
-		android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
-  change activity_main.xml:  	
-  comment out all fragment and leave this only
- 
-		<!-- 撒花效果 -->
+  - #####rain only wiz transparent view
+  change Android.Mainifest.xml:  
+  
+  	    android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+  change activity_main.xml:  
+  comment out all fragment and leave this only  
+  
+    	    <!-- 撒花效果 -->
 		<com.example.breadykid.rain.raining.RainView
             android:id="@+id/rain_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@android:color/transparent"/>
-            
-  - #####rain over other fragment:
-  chenge Android.Mainifest.xml:
- 
-		android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:background="@android:color/transparent"/>  
+  
+  - ##### rain over other fragment  
+  change Android.Mainifest.xml:  
+  
+  	    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
   comment out fragment except lucky_money:
-  
-  	    <!-- 抢红包 -->
-        <fragment
-           android:id="@+id/lucky_money"
-           android:name="com.example.breadykid.rain.redpackage.RedPackageFragment"
-           tools:layout="@layout/lucky_money"
-           android:layout_width="match_parent"
-           android:layout_height="match_parent"/>
-  
+ 
+		<!-- 抢红包 -->
+		<fragment
+            android:id="@+id/lucky_money"
+            android:name="com.example.breadykid.rain.redpackage.RedPackageFragment"
+            tools:layout="@layout/lucky_money
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>  
+              
 ## License
 伦家是很有开源精神的啦，license神马的不需要啦～玩得开心～么么哒～
 
