@@ -15,9 +15,9 @@
 * ### About Rain
 仿微信撒花效果:  	
 透明界面:  	
-![rainGIF](http://i12.tietuku.com/8db73c3583fc4a86.gif)  	
+![rainGIF](https://github.com/BreadKid/RedPackage-and-EatWhat-and-Rain/raw/master/readmepic/rain.gif)  	
 用于其他界面:  	
-![rainfrontsth](http://i12.tietuku.com/9a8d8bb036db8f77.gif)  	
+![rainfrontsth](https://github.com/BreadKid/RedPackage-and-EatWhat-and-Rain/raw/master/readmepic/rainwizsth.gif)  	
 撒落图片可选;
 
 ## Usage
