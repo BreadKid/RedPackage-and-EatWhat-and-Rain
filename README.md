@@ -2,7 +2,7 @@
 ## Demo
 * ### About RedPackage
 仿微信拼手气红包效果:  
-![redGIF](http://i11.tietuku.com/fec69920910cef27.gif)	
+![redGIF](https://github.com/BreadKid/RedPackage-and-EatWhat-and-Rain/raw/master/readmepic/red.gif)	
 实现靠后方差大的随机数效果，参考[知乎链接](https://www.zhihu.com/question/22625187);		
 红包总金额限定200元，并有限定设置;		
 各种非空判定，每人最低抢到0.01元限定;
