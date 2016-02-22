@@ -16,10 +16,18 @@
         <!--android:layout_height="match_parent"/>-->
 
     <!-- 抢红包 -->
+    <!--<fragment-->
+        <!--android:id="@+id/lucky_money"-->
+        <!--android:name="com.example.breadykid.rain.redpackage.RedPackageFragment"-->
+        <!--tools:layout="@layout/lucky_money"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+
+    <!-- 百度地图 -->
     <fragment
-        android:id="@+id/lucky_money"
-        android:name="com.example.breadykid.rain.redpackage.RedPackageFragment"
-        tools:layout="@layout/lucky_money"
+        android:id="@+id/map"
+        android:name="com.example.breadykid.rain.map.Map"
+        tools:layout="@layout/map"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
@@ -34,5 +42,12 @@
         <!--android:gift_max_size="0.8"-->
         <!--android:gift_min_size="0.5"-->
         <!--android:gift_speed="300" />-->
+
+    <Button
+        android:id="@+id/btn_star_rain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="close star rain"
+        android:background="@drawable/button"/>
 
 </RelativeLayout>

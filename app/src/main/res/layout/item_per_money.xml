@@ -5,8 +5,10 @@
     android:orientation="horizontal">
 
     <TextView
-        android:id="@+id/tv_item_permoney"
+        android:id="@+id/tv_item_per_money"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="test"/>
 
 </LinearLayout>

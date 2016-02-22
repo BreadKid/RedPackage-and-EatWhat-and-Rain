@@ -39,6 +39,7 @@ public class RedPackageAdapter extends BaseAdapter{
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
+
         tv=new TextView(mContext);
         tv.setText(mList.get(position).toString());
         return tv;

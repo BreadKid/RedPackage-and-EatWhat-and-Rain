@@ -95,7 +95,7 @@
         android:textSize="30sp"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:background="@drawable/btn_send_redpackage"/>
+        android:background="@drawable/button"/>
 
     <ListView
         android:id="@+id/lv_redpackage"
